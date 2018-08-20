@@ -1,0 +1,31 @@
+<odoo>
+    <data>
+        <!-- <record model="ir.ui.view" id="kitchen_orders_tree">
+            <field name="name">pos.kitchen.order.tree</field>
+            <field name="model">pos.kitchen.order</field>
+            <field name="arch" type="xml">
+                <tree string="dining Replacement Tree" create="false" edit="false">
+                    <field name="state"/>
+                </tree>
+            </field>
+        </record> -->
+
+        <!-- <record model="ir.actions.act_window" id="kitchen_orders_window">
+            <field name="name">PedidosdeCocina</field>
+            <field name="res_model">pos.kitchen.order</field>
+            <field name="view_mode">tree,form</field>
+            <field name="help" type="html">
+                <p class="oe_view_nocontent_create">
+                Haga clic aqui para crear un Nuevo Pedido de cocina
+                </p>
+            </field>
+            <field name="domain">[('state', 'in', ('in_process', ''))]</field>
+        </record>
+
+        <menuitem id="kitchen_orders" 
+            name="Pedidos de Cocina" 
+            action="kitchen_orders_window" 
+            parent="point_of_sale.menu_point_of_sale" 
+            sequence="0"/> -->
+    </data>
+</odoo>
